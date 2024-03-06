@@ -1,16 +1,32 @@
-# todoapp
+# To-Do List App
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Este é um aplicativo simples de lista de tarefas desenvolvido em Flutter, que permite que os usuários gerenciem e organizem suas tarefas diárias. O aplicativo oferece uma interface intuitiva e amigável, permitindo a adição, exclusão e marcação de tarefas como concluídas.
 
-A few resources to get you started if this is your first Flutter project:
+## Funcionalidades Principais
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Adição de novas tarefas.
+- Marcação de tarefas como concluídas.
+- Exclusão de tarefas.
+- Busca por tarefas específicas.
+- Interface limpa e responsiva.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tecnologias Utilizadas
+
+- [Flutter](https://flutter.dev/): Framework de desenvolvimento multiplataforma.
+- [Dart](https://dart.dev/): Linguagem de programação usada pelo Flutter.
+
+## Como Usar
+
+1. Clone o repositório para o seu ambiente de desenvolvimento local.
+2. Abra o projeto no seu editor de código preferido.
+3. Execute o aplicativo em um emulador ou dispositivo físico usando o Flutter.
+
+## Contribuindo
+
+Sinta-se à vontade para contribuir, relatar problemas ou sugerir melhorias. Esperamos que este aplicativo seja útil para organizar suas tarefas diárias!
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
