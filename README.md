@@ -26,7 +26,7 @@ Este é um aplicativo simples de lista de tarefas desenvolvido em Flutter, que p
 
 ## Contribuindo
 
-Sinta-se à vontade para contribuir, relatar problemas ou sugerir melhorias. Esperamos que este aplicativo seja útil para organizar suas tarefas diárias!
+Sinta-se à vontade para contribuir, relatar problemas ou sugerir melhorias.
 
 ## Licença
 
