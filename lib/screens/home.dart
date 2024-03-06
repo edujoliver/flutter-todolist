@@ -18,10 +18,12 @@ class _HomeState extends State<Home> {
   final _todoController = TextEditingController();
   List<ToDo> _foundToDo = [];
 
-  void initstate() {
-    _foundToDo = todosList;
-    super.initState();
-  }
+  @override
+void initState() {
+  _foundToDo = todosList;
+  super.initState();
+}
+
 
   @override
   Widget build(BuildContext context) {
@@ -39,8 +41,8 @@ class _HomeState extends State<Home> {
                   child: ListView(
                     children: [
                       Container(
-                        margin: EdgeInsets.only(top:50,
-                        bottom: 20,
+                        margin: EdgeInsets.only(top:20,
+                        bottom: 10,
                         ),
                         child: Text(
                           'Lista de Tarefas',
@@ -50,7 +52,7 @@ class _HomeState extends State<Home> {
                           ),
                         ),
                       ),
-                      for ( ToDo todo in _foundToDo.reversed)
+                      for ( ToDo todo in _foundToDo)
                       TodoItem(
                       todo: todo,
                       onToDoChanged: _handletodochange,
